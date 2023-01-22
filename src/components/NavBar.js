@@ -49,7 +49,8 @@ export const NavBar = () => {
               <a href="https://www.reddit.com/user/ejarkerm/"><img src={navIcon2} alt="" /></a>
               <a href="https://instagram.com/thirdsql"><img src={navIcon3} alt="" /></a>
             </div>
-            <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+            <button className="vvd" onClick={() => window.location.href='https://www.reddit.com/user/ejarkerm'}><span>Let's Connect</span></button>
+
           </span>
         </Navbar.Collapse>
       </Container>
